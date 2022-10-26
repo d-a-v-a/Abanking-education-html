@@ -1,0 +1,329 @@
+/* glob */
+
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+.list_reset{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+.p_reset{
+  margin: 0;
+}
+
+.title_reset{
+  margin: 0;
+}
+
+.section_title_reset{
+  margin: 0;
+}
+
+.container{
+  width: 850px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'Heebo';
+  src: local("Heebo-Light"), url("../fonts/Heebo-Light.woff2") format("woff2"),
+  url("../fonts/Heebo-Light.woff") format("woff");
+  font-weight: 300;
+  font-style:normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heebo';
+  src: local("Heebo-Regular"), url("../fonts/Heebo-Regular.woff2") format("woff2"),
+  url("../fonts/Heebo-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style:normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heebo';
+  src: local("Heebo-Medium"), url("../fonts/Heebo-Medium.woff2") format("woff2"),
+  url("../fonts/Heebo-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style:normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heebo';
+  src: local("Heebo-Bold"), url("../fonts/Heebo-Bold.woff2") format("woff2"),
+  url("../fonts/Heebo-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style:normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heebo';
+  src: local("Heebo-ExtraBold"), url("../fonts/Heebo-ExtraBold.woff2") format("woff2"),
+  url("../fonts/Heebo-ExtraBold.woff") format("woff");
+  font-weight: 700;
+  font-style:normal;
+  font-display: swap;
+}
+
+body{
+  font-family: Heebo, sans-serif;
+}
+
+/* header */
+
+.header{
+  display: flex;
+  width: 1150px;
+  margin: 0 auto;
+  padding: 0 60px;
+  justify-content: flex-end;
+  margin-bottom: 140px;
+  margin-top: 27px;
+}
+
+.a_header{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+  color: #000000;
+}
+
+.a_header:not(:last-child){
+  margin-right: 33px;
+}
+
+/* resume_section */
+
+.resume_section{
+  display: flex;
+  margin-bottom: 70px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.h2_resume_section{
+  margin-bottom: 40px;
+  width: 500px;
+  min-height: 105px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+}
+
+.p_resume_section{
+  margin-bottom: 40px;
+  width: 500px;
+  min-height: 60px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+}
+
+.btn_resume{
+  padding: 10px 20px;
+  border: 0;
+  background: #FF6464;
+  border-radius: 2px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+/* Recent posts */
+
+.recent_posts_section{
+  padding: 15px 0 30px 0;
+  margin-bottom: 20px;
+  background-color: #EDF7FA;
+}
+
+.head_recent_posts_section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.h2_recent_posts_section{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243D;
+}
+
+.a_recent_posts_section{
+  margin: auto 0;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #00A8CC;
+}
+
+.list_recent_posts{
+  display: flex;
+  justify-content: space-between;
+}
+
+.li_recent_posts{
+  width: 418px;
+  min-height: 295px;
+  padding: 24px 23px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+}
+
+.h3_li_recent_posts{
+  margin: 0;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  color: #21243D;
+}
+
+.span_li_recent_posts{
+  display: inline-block;
+  margin-bottom: 10px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #21243D;
+}
+
+.p_li_recent_posts{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+}
+
+/* featured works */
+
+.featured_works_section{
+  margin-bottom: 134px;
+}
+
+.h2_featured_works{
+  padding-bottom: 15px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243D;
+}
+
+.li_featured_works{
+  display: flex;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.li_featured_works:not(:last-child){
+  margin-bottom: 30px;
+}
+
+.img_li_featured_works{
+  margin-right: 20px;
+}
+
+.h3_li_featured_works{
+  margin-bottom: 20px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243D;
+}
+
+.year_li_featured_works{
+  margin-right: 26px;
+  padding: 0 5px 0 10px;
+  background: #142850;
+  border-radius: 16px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+.type_li_featured_works{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695A4;
+}
+
+.p_li_featured_works{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+}
+
+/* footer */
+
+.messenge_icons_footer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 26px;
+}
+
+.icon_messenge_footer:not(:last-child){
+  margin-right: 35px;
+}
+
+.description_footer{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 54px;
+  text-align: center;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #21243D;
+}
