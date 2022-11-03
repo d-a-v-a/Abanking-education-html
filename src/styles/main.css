@@ -16,21 +16,6 @@ html{
   list-style: none;
 }
 
-a{
-  text-decoration: none;
-}
-.p_reset{
-  margin: 0;
-}
-
-.title_reset{
-  margin: 0;
-}
-
-.section_title_reset{
-  margin: 0;
-}
-
 .container{
   width: 850px;
   margin: 0 auto;
@@ -97,7 +82,8 @@ body{
   margin-top: 27px;
 }
 
-.a_header{
+.header__link{
+  text-decoration: none;
   font-family: 'Heebo';
   font-style: normal;
   font-weight: 500;
@@ -107,20 +93,21 @@ body{
   color: #000000;
 }
 
-.a_header:not(:last-child){
+.header__link:not(:last-child){
   margin-right: 33px;
 }
 
 /* resume_section */
 
-.resume_section{
+.main__resume{
   display: flex;
   margin-bottom: 70px;
   align-items: flex-start;
   justify-content: space-between;
 }
 
-.h2_resume_section{
+.resume__h2{
+  margin: 0;
   margin-bottom: 40px;
   width: 500px;
   min-height: 105px;
@@ -132,7 +119,8 @@ body{
   color: #21243D;
 }
 
-.p_resume_section{
+.resume__p{
+  margin: 0;
   margin-bottom: 40px;
   width: 500px;
   min-height: 60px;
@@ -144,7 +132,7 @@ body{
   color: #21243D;
 }
 
-.btn_resume{
+.resume__btn{
   padding: 10px 20px;
   border: 0;
   background: #FF6464;
@@ -159,18 +147,19 @@ body{
 
 /* Recent posts */
 
-.recent_posts_section{
+.main__recent-posts{
   padding: 15px 0 30px 0;
   margin-bottom: 20px;
   background-color: #EDF7FA;
 }
 
-.head_recent_posts_section{
+.recent-posts__head{
   display: flex;
   justify-content: space-between;
 }
 
-.h2_recent_posts_section{
+.recent-posts__h2{
+  margin: 0;
   font-family: 'Heebo';
   font-style: normal;
   font-weight: 400;
@@ -179,8 +168,9 @@ body{
   color: #21243D;
 }
 
-.a_recent_posts_section{
+.recent-posts__link{
   margin: auto 0;
+  text-decoration: none;
   font-family: 'Heebo';
   font-style: normal;
   font-weight: 400;
@@ -188,12 +178,12 @@ body{
   color: #00A8CC;
 }
 
-.list_recent_posts{
+.recent-posts__list{
   display: flex;
   justify-content: space-between;
 }
 
-.li_recent_posts{
+.recent-posts__li{
   width: 418px;
   min-height: 295px;
   padding: 24px 23px;
@@ -202,7 +192,7 @@ body{
   border-radius: 4px;
 }
 
-.h3_li_recent_posts{
+.recent-posts__h3{
   margin: 0;
   font-family: 'Heebo';
   font-style: normal;
@@ -212,7 +202,7 @@ body{
   color: #21243D;
 }
 
-.span_li_recent_posts{
+.recent-posts__span{
   display: inline-block;
   margin-bottom: 10px;
   font-family: 'Heebo';
@@ -223,7 +213,8 @@ body{
   color: #21243D;
 }
 
-.p_li_recent_posts{
+.recent-posts__p{
+  margin: 0;
   font-family: 'Heebo';
   font-style: normal;
   font-weight: 400;
@@ -234,11 +225,12 @@ body{
 
 /* featured works */
 
-.featured_works_section{
+.main__featured-works{
   margin-bottom: 134px;
 }
 
-.h2_featured_works{
+.featured-works__h2{
+  margin: 0;
   padding-bottom: 15px;
   font-family: 'Heebo';
   font-style: normal;
@@ -248,21 +240,22 @@ body{
   color: #21243D;
 }
 
-.li_featured_works{
+.featured-works__li{
   display: flex;
   padding-bottom: 30px;
   border-bottom: 1px solid #E0E0E0;
 }
 
-.li_featured_works:not(:last-child){
+.featured-works__li:not(:last-child){
   margin-bottom: 30px;
 }
 
-.img_li_featured_works{
+.featured-works__img{
   margin-right: 20px;
 }
 
-.h3_li_featured_works{
+.featured-works__h3{
+  margin: 0;
   margin-bottom: 20px;
   font-family: 'Heebo';
   font-style: normal;
@@ -272,7 +265,7 @@ body{
   color: #21243D;
 }
 
-.year_li_featured_works{
+.featured-works__year{
   margin-right: 26px;
   padding: 0 5px 0 10px;
   background: #142850;
@@ -285,7 +278,7 @@ body{
   color: #FFFFFF;
 }
 
-.type_li_featured_works{
+.featured-works__type{
   font-family: 'Heebo';
   font-style: normal;
   font-weight: 400;
@@ -294,7 +287,8 @@ body{
   color: #8695A4;
 }
 
-.p_li_featured_works{
+.featured-works__p{
+  margin: 0;
   font-family: 'Heebo';
   font-style: normal;
   font-weight: 400;
@@ -305,17 +299,17 @@ body{
 
 /* footer */
 
-.messenge_icons_footer{
+.footer__icons{
   display: flex;
   justify-content: center;
   margin-bottom: 26px;
 }
 
-.icon_messenge_footer:not(:last-child){
+.footer__icon:not(:last-child){
   margin-right: 35px;
 }
 
-.description_footer{
+.footer__description{
   display: block;
   margin: 0 auto;
   margin-bottom: 54px;
