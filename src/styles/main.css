@@ -10,7 +10,7 @@ html{
   box-sizing: inherit;
 }
 
-.list_reset{
+.list-reset{
   margin: 0;
   padding: 0;
   list-style: none;
@@ -99,14 +99,14 @@ body{
 
 /* resume_section */
 
-.main__resume{
+.resume{
   display: flex;
   margin-bottom: 70px;
   align-items: flex-start;
   justify-content: space-between;
 }
 
-.resume__h2{
+.resume__h1{
   margin: 0;
   margin-bottom: 40px;
   width: 500px;
@@ -147,7 +147,7 @@ body{
 
 /* Recent posts */
 
-.main__recent-posts{
+.recent-posts{
   padding: 15px 0 30px 0;
   margin-bottom: 20px;
   background-color: #EDF7FA;
@@ -225,7 +225,7 @@ body{
 
 /* featured works */
 
-.main__featured-works{
+.featured-works{
   margin-bottom: 134px;
 }
 
